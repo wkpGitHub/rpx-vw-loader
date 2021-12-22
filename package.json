@@ -1,16 +1,14 @@
 {
   "name": "rpx-vw-loader",
-  "version": "1.0.1",
-  "description": "把css文件中的rpx转为vw；使用场景：小程序中的css文件，放到H5移动端；自动计算出vw，适应移动端开发",
+  "version": "1.0.2",
+  "description": "把css文件中的rpx转为vw；使用场景：小程序中的css文件，放到H5移动端；获取移动端自适应开发，省去手动计算vw值；webpack自动计算出vw",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
+  "keywords": ["rpx", "vw", "rpx转vw"],
+  "author": "144962654@qq.com",
   "repository": {
     "type": "git",
     "url": "https://github.com/wkpGitHub/rpx-vw-loader.git"
   },
-  "keywords": ["rpx", "vw", "rpx转vw"],
-  "author": "1441962654@qq.com",
   "license": "ISC"
 }
