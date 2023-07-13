@@ -36,11 +36,11 @@ module.exports = {
     config.module
       .rule('rpx')
       .test(/\.css$/)
-      .use('rpx-webpack-loader')
-      .loader('rpx-webpack-loader')
+      .use('rpx-vw-loader')
+      .loader('rpx-vw-loader')
       .options({
         // designWidth设计稿的尺寸，默认750：designWidth / 750 * 100 = vw
-        width: 750
+        designWidth: 750
       })
       .end();
   }
